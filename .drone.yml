@@ -43,3 +43,11 @@ steps:
         {{else}}
           Eh bah nan, la build {{build.number}} est kc. Alexis Taupin
         {{\success}}
+
+  - name: publish
+      image: plugins/gh-pages
+      settings:
+        username: tauxis
+        password:
+          from_secret: Pass_GitHub
+        pages_directory: test-ci/dist
