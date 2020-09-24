@@ -27,7 +27,7 @@ steps:
     image: lowess/preact-cli
     commands:
       - cd test_ci
-      - export BASE_URL =$GITHUB_REPO_ONWER.github.io/$GITHUB_REPO_NAME
+      - export BASE_URL =https://${DRONE_REPO_OWNER}.github.io/preact-hugo
       - npm run build
 
   - name: node-preview
