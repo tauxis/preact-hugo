@@ -45,9 +45,9 @@ steps:
         {{\success}}
 
   - name: publish
-      image: plugins/gh-pages
-      settings:
-        username: tauxis
-        password:
-          from_secret: Pass_GitHub
-        pages_directory: test-ci/dist
+    image: plugins/gh-pages
+    settings:
+      username: tauxis
+      password:
+        from_secret: Pass_GitHub
+      pages_directory: test-ci/dist
