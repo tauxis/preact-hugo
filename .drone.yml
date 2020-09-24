@@ -36,7 +36,7 @@ steps:
     settings:
       webhook:
         from_secret: Drone-slack
-      channel : drone-ci
+      channel: drone-ci
       template: >
         {{#success build.status}}
           Bravo la build {{build.number}} a reussi. Alexis Taupin
