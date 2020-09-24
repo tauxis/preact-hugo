@@ -37,12 +37,7 @@ steps:
       webhook:
         from_secret: drone-slack
       channel : drone-ci
-      template: >
-        {{#success build.status}}
-          Bravo la build {{build.number}} a reussi. Alexis Taupin
-        {{else}}
-          Eh bah nan, la build {{build.number}} est kc. Alexis Taupin
-        {{\success}}
+      
 
   - name: publish
     image: plugins/gh-pages
