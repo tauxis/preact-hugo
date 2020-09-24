@@ -5,7 +5,7 @@ kind: pipeline
 name: mon-super-pipeline-ci
 steps:
   - name: hello-world
-  image: busybox # (:lastest)
-  - commands:
+    image: busybox # (:lastest)
+    commands:
       - echo 'Hello World'
 
