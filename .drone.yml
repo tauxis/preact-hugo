@@ -37,7 +37,12 @@ steps:
       webhook:
         from_secret: drone-slack
       channel : drone-ci
-      
+      template: >
+        {{#success build.status}}
+          La build {{build.number}} est un succès. gg
+        {{else}}
+          La build {{build.number}} est un échec, comme toi.
+        {{/success}}
 
   - name: publish
     image: plugins/gh-pages
