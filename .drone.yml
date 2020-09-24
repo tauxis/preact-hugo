@@ -39,7 +39,7 @@ steps:
       channel : drone-ci
       template: >
         {{#success build.status}}
-          Bravo la build {{build.number}} a réussi.
+          Bravo la build {{build.number}} a reussi. Alexis Taupin
         {{else}}
-          Eh bah nan, la build {{build.number}} est kc.
+          Eh bah nan, la build {{build.number}} est kc. Alexis Taupin
         {{\success}}
