@@ -11,7 +11,7 @@ steps:
   - name: create-template
     image: lowess/preact-cli
     commands:
-      - preact create template ${DRONE_REPO}#${DRONE_COMMIT} test_ci
+      - preact create ${DRONE_REPO}#${DRONE_COMMIT} test_ci
 
   - name: node-install
     image: lowess/preact-cli
