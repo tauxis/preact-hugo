@@ -32,7 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5e1bb5-99fa-4296-805d-f00de847ff10" name="Default Changelist" comment="" />
+    <list default="true" id="af5e1bb5-99fa-4296-805d-f00de847ff10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +45,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.drone.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1hxOI0ZXXLnSorwMSkw0Q0VvKcS" />
   <component name="ProjectViewState">
@@ -59,6 +64,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fires\Documents\INSSET\AWS\Preact\preact-hugo" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600949194116</updated>
-      <workItem from="1600949196155" duration="791000" />
+      <workItem from="1600949196155" duration="981000" />
     </task>
     <servers />
   </component>
