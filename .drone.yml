@@ -14,19 +14,19 @@ steps:
       - preact create template ${DRONE_REPO}#${DRONE_COMMIT} test_ci
 
   - name: node install
-      image: lowess/preact-cli
-      commands:
-        - cd test_ci
-        - npm install
-        -
+    image: lowess/preact-cli
+    commands:
+      - cd test_ci
+      - npm install
+
   - name: node build
-      image: lowess/preact-cli
-      commands:
-        - cd test_ci
-        - npm run build
-        -
-  - name: node build
-      image: lowess/preact-cli
-      commands:
-        - cd test_ci
-        - npm run build:preview
+    image: lowess/preact-cli
+    commands:
+      - cd test_ci
+      - npm run build
+
+  - name: node preview
+    image: lowess/preact-cli
+    commands:
+      - cd test_ci
+      - npm run build:preview
