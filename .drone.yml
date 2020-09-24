@@ -30,3 +30,16 @@ steps:
     commands:
       - cd test_ci
       - npm run build:preview
+
+  - name: slack
+    image: plugins/slack
+    settings:
+    webhook:
+      from_secret: Drone-slack
+    channel : drone-ci
+    template: >
+      {{#success build.status}}
+        Bravo la build {{build.number}} a réussi.
+      {{else}}
+        Eh bah nan, la build {{build.number}} est kc.
+      {{\success}}
