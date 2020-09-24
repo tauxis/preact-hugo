@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af5e1bb5-99fa-4296-805d-f00de847ff10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600949194116</updated>
-      <workItem from="1600949196155" duration="5616000" />
+      <workItem from="1600949196155" duration="6311000" />
     </task>
     <servers />
   </component>
