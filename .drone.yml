@@ -2,12 +2,16 @@
 kind: pipeline
 name: mon-super-pipeline-ci
 
+# environment:
+#   BASE_URL: ${GITHUB_REPO_ONWER}#${GITHUB_REPO_NAME}
+
 steps:
   - name: hello-world
     image: lowess/preact-cli
     commands:
       - echo 'Hello World'
-
+      
+      
   - name: create-template
     image: lowess/preact-cli
     commands:
@@ -50,4 +54,4 @@ steps:
       username: tauxis
       password:
         from_secret: Pass_GitHub
-      pages_directory: test-ci/dist
+      pages_directory: test_ci/dist
